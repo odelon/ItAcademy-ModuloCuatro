@@ -55,6 +55,7 @@ public class MilestoneDos {
 						seguir = Integer.parseInt(sc.nextLine());
 					} catch (Exception continuar) {
 						System.out.println("Error al hacer la selección, por favor, pulsa 1 para pedir otro plato o 0 para finalizar.");
+						sc.nextLine();
 					}
 				}
 			 

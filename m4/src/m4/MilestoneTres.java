@@ -54,6 +54,7 @@ public class MilestoneTres {
 							platosUsuario.add(pedidoUsuario);
 						}catch (Exception pedido) {
 							System.out.println("Uppss!!, error al introducir el plato");
+							sc.nextLine();
 						}
 					
 						try {
@@ -61,6 +62,7 @@ public class MilestoneTres {
 							seguir = Integer.parseInt(sc.nextLine());
 						} catch (Exception continuar) {
 							System.out.println("Uppss!, error al hacer la selección, por favor, pulsa 1 para pedir otro plato o 0 para finalizar.");
+							sc.nextLine();
 						}
 					}			 
 			
